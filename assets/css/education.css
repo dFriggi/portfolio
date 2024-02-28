@@ -1,0 +1,46 @@
+
+.education {
+    display: flex;
+    flex-direction: column;
+}
+
+.education .awards h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.education .awards ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.education .awards ul li img{
+    max-width: 80px;
+    margin: 0 1.5rem;
+}
+
+.education .schools ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 1rem;
+}
+
+.education .schools ul a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: .5rem;
+}

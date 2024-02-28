@@ -1,164 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTIFÓLIO</title>
+    <title>Portifólio Renan J Paula</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 
-    <link rel="stylesheet" href="/assets/css/skills.css">
-    <link rel="stylesheet" href="/assets/css/experience.css">
-    <link rel="stylesheet" href="/assets/css/portfolio.css">
-    <link rel="stylesheet" href="/assets/css/lang.css">
-    <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
     <main class="main">
-    <header class="header">
-        
-        <img src="/assets/img/myPhoto.jpg" alt="Foto do Davi Friggi" class="photo">
+        <header class="header">
+            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
 
-        <h1 class="title">Olá, <br>eu sou o Davi Friggi</h1>
- 
-        <div class="information">
-            <p class="user">Trainee Developer</p>
-            <p class="map">São José dos Campos - BR</p>
-            <p class="phone">
-                <a href="tel:(12) 9 9728-9709">(12) 9 9728-9709</a>
-            </p>
-            <p class="email">
-                <a href="mailto:davifriggi2005@gmail.com">davifriggi2005@gmail.com</a>
-            </p>  
-            <p class="diploma">Cursando BCT na Unifesp - 1/6</p>
-        </div>
-    </header>
+            <h1 class="title">
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
+            </h1>
 
-    <section class="acordeon open">
+            <div class="information">
+                <p class="user" id="profile.user">Carregando...</p>
+                <p class="map" id="profile.map">Carregando...</p>
+                <p class="phone">
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                </p>
+            </div>
+        </header>
 
-      <button class="trigger" type="button">                 
-               <h2>Skills</h2>
-       </button>
-
-       <div class="content">
-           <div class="skills">
-           <section class="professional">
-               <h3>Habilidades profissionais:</h3>
-               <ul>
-                    <li><img src="/assets/img/icons/languages/nodejs.svg" alt="nodejs" title="NodeJS"></li>
-                    <li><img src="/assets/img/icons/languages/python.svg" alt="python" title="Python"></li>
-                    <li><img src="/assets/img/icons/languages/css.svg" alt="css" title="CSS"></li>
-                    <li><img src="/assets/img/icons/languages/js.svg" alt="javascript" title="JavaScript"></li>
-                    <li><img src="/assets/img/icons/languages/git.svg" alt="git" title="Git"></li>
-
-                </ul>
-            </section>
-            
-            <section class="personal">
-                    <h3>Habilidades pessoais:</h3>
-                    <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Trabalhho em equipe</li>
-                            <li>Organização</li>
-                            <li>Flexibilidade</li>
-                    </ul>
-                </section>
-          </div>
-    </div>
-    </section>
-
-    <section class="acordeon">
-
-            <button class="trigger" type="button">                 
-                    <h2>Idiomas</h2>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
             </button>
 
             <div class="content">
-                <ul class="lang">
-                    <li>Português</li>
-                    <li>Inglês</li>
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul id="profile.skills.hardSkills">
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Softskills:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages" id="profile.lang">
+                    <li>Carregando...</li>
                 </ul>
             </div>
+        </section>
 
-    </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Portfólio</h2>
+            </button>
 
+            <div class="content">
+                <ul class="portfolio" id="profile.portfolio">
+                </ul>
+            </div>
+        </section>
 
-    <section class="acordeon">
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Educação</h2>
+            </button>
 
-        <button class="trigger" type="button">                 
-                <h2>Projects</h2>
-        </button>
+            <div class="content">
+                <div class="education">
+                    <section class="awards">
+                        <h3>Minhas conquistas DIO:</h3>
+                        <ul id="profile.education.awards">
+                        </ul>
+                    </section>
 
-        <div class="content">
-            <ul class="portfolio">
-                <li>
-                    <h3 class="title github">Criando um App de lembrete</h3>
-                    <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-                <li>
-                    <h3 class="title github">Criando um App de lembrete</h3>
-                    <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-                <li>
-                    <h3 class="title github">Criando um App de lembrete</h3>
-                    <a href="https://www.google.com.br" target="_blank">www.google.com.br</a>
-                </li>
-            </ul>
-        </div>
+                    <section class="personal">
+                        <ul id="profile.education.schools">
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
 
-    </section>
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
 
-    <section class="acordeon">
+            <div class="content">
+                <ul class="experience" id="profile.experience">
+                </ul>
+            </div>
+        </section>
 
-        <button class="trigger" type="button">                 
-                <h2>Experiência profissional</h2>
-        </button>
-
-        <div class="content">
-            <ul class="experience">
-                <li >
-                    <h3 class="title">Aqui vem o título</h3>
-                    <span class="data">2020-2023</span>
-                    <p>
-                        Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste. 
-                    </p>
-                </li>
-                <li >
-                    <h3 class="title">Aqui vem o título</h3>
-                    <span class="data">2020-2023</span>
-                    <p>
-                        Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste. 
-                    </p>
-                </li>
-                <li >
-                    <h3 class="title">Aqui vem o título</h3>
-                    <span class="data">2020-2023</span>
-                    <p>
-                        Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste. 
-                    </p>
-                </li>
-            </ul>
-        </div>
-
-</section>
-
-
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
     </main>
-    <script src="/assets/js/acordeon.js"></script>
+
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
