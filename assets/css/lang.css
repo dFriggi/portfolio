@@ -10,7 +10,7 @@
     list-style: none;
 }
 
-.lang li {
+.languages li {
     padding-right: 1rem;
     display: flex;
     flex-direction: row;
@@ -19,7 +19,7 @@
     font-size: .85rem;
 }
 
-.lang li::before {
+.languages li::before {
     content: "";
     display: inline-block;
     width: 1rem;
