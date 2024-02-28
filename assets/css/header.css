@@ -44,23 +44,23 @@
 }
 
 .information .user::before {
-    background-image: url(/assets/img/icons/user.svg);
+    background-image: url('../img/icons/user.svg');
 }
 
 .information .map::before {
-    background-image: url(/assets/img/icons/map.svg);
+    background-image: url('../img/icons/map.svg');
 }
 
 .information .phone::before {
-    background-image: url(/assets/img/icons/phone.svg);
+    background-image: url('../img/icons/phone.svg');
 }
 
 .information .email::before {
-    background-image: url(/assets/img/icons/email.svg);
+    background-image: url('../img/icons/email.svg');
 }
 
 .information .diploma::before {
-    background-image: url(/assets/img/icons/diploma.png)
+    background-image: url('../img/icons/diploma.png')
 }
 
 @media only screen and (min-width: 768px) {

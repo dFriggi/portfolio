@@ -27,7 +27,7 @@ body {
 .main::before,
 .main::after {
     content: '';
-    background-image: url(/assets/img/background-top.svg);
+    background-image: url('../img/background-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 120vw;
@@ -40,7 +40,7 @@ body {
 }
 
 .main::after {
-    background-image: url(/assets/img/background-top.svg);
+    background-image: url('../img/background-top.svg');
     top: auto;
     left: auto;
     bottom: 0;
