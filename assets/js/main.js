@@ -44,7 +44,7 @@ function updateLanguages(profileData) {
 
 function updatePorfolio(profileData) {
     const portfolio = document.getElementById("profile.portfolio")
-    portfolio.innerHTML = profileData.portfolio.map(project => {
+    portfolio.innerHTML = profileData.portfolio.map(project => {/* ${project.github ? `class="github" : '' ===== é a mesma coisa que = if(projecto.github =true){class ="github")} else {''}*/ 
         return `
         <li>
             <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>

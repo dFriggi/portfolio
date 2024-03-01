@@ -7,6 +7,12 @@ footer {
     padding: 1rem;
 }
 
+footer .linkedin{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0 1.75rem;
+}
+
 footer img {
     max-width: 100px;
 }
