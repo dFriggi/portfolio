@@ -5,7 +5,7 @@
   "map": "São José dos Campos - SP",
   "phone": "(12) 99728-9709",
   "email": "davifriggi2005@gmail.com",
-  "university": "Cursando BCT na Unifesp - 1/6",
+  "university": "Cursando BCT na Unifesp - 3/6",
   "skills": {
     "hardSkills": [
       {
@@ -70,14 +70,14 @@
 
   "experience": [
     {
+      "name": "Jovem Aprendiz - Analista",
+      "period": "2024 - 2025 (Atual)",
+      "description": "Faço parte da equipe de analistas de T.I da Inova Saúde no Hospital Regional de São José dos Campos. Acesso o banco de dados (Oracle) do hospital constantemente durante meu trabalho, integrado ao sistema MV."
+    },
+    {
       "name": "Trabalho voluntário - Sarau escolar",
       "period": "2022 - 2023",
       "description": "Fui líder da área musical de 2 saraus, ambos tendo mais de 300 espectadores, por 2 anos consecutivos, assumindo a frente de grupos com mais de 20 pessoas."
-    },
-    {
-      "name": "Trabalho  voluntário - Igreja",
-      "period": "2020 - 2022",
-      "description": "Participei na produção de 3 eventos para crianças na minha igreja, cuidando da parte de entretenimento e gestão das músicas e banda."
     },
     {
       "name": "Projeto escolar - Feira Científica",
